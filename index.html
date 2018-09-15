@@ -2,19 +2,21 @@
 <html dir="ltr" lang="en" id="home" class="ltr">
 
 <head>
+    <title>Science Olympiad</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Science Olympiad</title>
     <meta name="description" content="Skyridge Science Olympiad.">
     <meta name="theme-color" content="#354351">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/f3ca83fb-6967-4a0e-8408-414df0aab459%2Fdownload.png?1536937198612">
     <script src="js/bundle.js"></script>
     <script src="js/main.js"></script>
-    <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/f3ca83fb-6967-4a0e-8408-414df0aab459%2Fdownload.png?1536937198612">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/0.3.6/ScrollTrigger.js"></script>
 </head>
 
-<body class="nojs">
+<body class="nojs" onload="window.scroll(0, 0)">
     <svg class="web-svg-grads" xmlns="http://www.w3.org/2000/svg">
         <lineargradient id="web-grad-a" x1="-272.9964" x2="-290.3716" y1="385.9966" y2="403.3717" gradientunits="userSpaceOnUse">
             <stop offset="0" stop-color="#323C58" />
@@ -28,7 +30,7 @@
         </lineargradient>
     </svg>
     <header id="main-header">
-        <div id="main-header-inner collapse" class="fixed-top">
+        <div id="main-header-inner" class="fixed-top">
             <nav id="web-nav" class="navbar navbar-expand-lg">
                 <button id="toggleMainNav" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerMain" aria-controls="navbarTogglerMain" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="d-flex">
@@ -75,6 +77,43 @@
             </div>
         </div>
     </section>
+    <footer id="web-footer">
+        <div class="container-fluid max-grid py-3">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h6 class="hover">MAIN</h6>
+                            <ul class="nav flex-column">
+                                <li class="nav-item active"><a class="nav-link p-0 pb-1 mb-2" href="../">Home</a></li>
+                                <li class="nav-item"><a class="nav-link p-0 pb-1 mb-2" target="_blank" href="https://www.soinc.org/">Science Olympiad</a></li>
+                                <li class="nav-item"><a href="https://nvu.io/en/contact/" class="nav-link p-0 pb-1 mb-2">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <hr class="nvu-sep d-lg-none">
+                    <h6>SCHOOL</h6>
+                    <div class="row">
+                        <div class="col-6"><a href="http://schools.camas.wednet.edu/skyridge/" class="nvu-partner border rounded p-3" rel="nofollow"><img src="https://cdn.glitch.com/f3ca83fb-6967-4a0e-8408-414df0aab459%2F925194656.png?1537052829527" width="60" alt=""></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-xl-9">
+                    <hr class="nvu-sep"><br>Made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://bai.js.org" target="_blank" class="sig"><b>Aiden Bai</b></a>.</div>
+                <div class="col-lg-4 col-xl-3 d-none d-lg-block">
+                    <hr class="nvu-sep">
+                    <nav class="navbar navbar-expand-lg justify-content-end">
+                        <ul class="navbar-nav my-2 my-lg-0">
+                            <li class="nav-item nav-social"><a class="nav-link" data-toggle="tooltip" target="_blank" href="https://discordapp.com/invite/uekTNPj" title="Join our official Discord server"><i class="fab align-middle fa-fw fa-discord"></i></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
