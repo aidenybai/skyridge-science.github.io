@@ -548,8 +548,8 @@
     }
  }
  #main-header-inner.scrolled{
-    background:#252a34;
-    border-bottom:1px solid rgba(255,255,255,0.2)
+    background:#1B202D;
+    box-shadow: 0 4px 10px 0px #000000;
  }
  #main-header .navbar{
     transition:0.3s
