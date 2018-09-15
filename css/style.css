@@ -53,7 +53,7 @@
     background-color:#ededed;
     color:#506276;
     font-family:"Roboto",sans-serif;
-    overflow: hidden;
+    /*overflow: hidden;*/
     height:100%
  }
  a{
@@ -538,17 +538,16 @@
     z-index:2
  }
  #main-header-inner{
-    transition:0.3s;
-    background:#252a34;
-    border-bottom:1px solid rgba(255,255,255,0.2)
+    background:none;
+    transition:0.3s
  }
  @media only screen and (min-width: 992px){
     #main-header-inner{
-        border-bottom:1px solid rgba(255,255,255,0);
-        background:none
+        background:none;
+        transition:0.3s
     }
  }
- #main-header-inner.scrolled,.nav-bg #main-header-inner,.nojs #main-header-inner{
+ #main-header-inner.scrolled{
     background:#252a34;
     border-bottom:1px solid rgba(255,255,255,0.2)
  }
