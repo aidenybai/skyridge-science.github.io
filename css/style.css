@@ -538,19 +538,21 @@
     z-index:2
  }
  #main-header-inner{
-    background:none;
-    transition:0.3s
+    background:#1B202D;
+    box-shadow: 0 4px 10px 0px #000000;
  }
  @media only screen and (min-width: 992px){
     #main-header-inner{
         background:none;
-        transition:0.3s
+        transition:0.3s;
+        box-shadow: none;
+    }
+    #main-header-inner.scrolled{
+        background:#1B202D;
+        box-shadow: 0 4px 10px 0px #000000;
     }
  }
- #main-header-inner.scrolled{
-    background:#1B202D;
-    box-shadow: 0 4px 10px 0px #000000;
- }
+ 
  #main-header .navbar{
     transition:0.3s
  }
@@ -700,7 +702,7 @@
         padding-top:30vh
     }
  }
- #headerMask{
+ /*#headerMask{
     position:fixed;
     height:100vh;
     width:100%;
@@ -716,7 +718,7 @@
  .mainmenu-open #headerMask{
     background:rgba(0,0,0,0.8);
     pointer-events:auto
- }
+ }*/
  #web-footer{
     padding-top:60px;
     padding-bottom:20px;
