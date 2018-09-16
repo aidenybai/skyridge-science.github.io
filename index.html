@@ -9,14 +9,16 @@
     <meta name="theme-color" content="#354351">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/odometer.sass">
     <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/f3ca83fb-6967-4a0e-8408-414df0aab459%2Fdownload.png?1536937198612">
     <script src="js/bundle.js"></script>
     <script src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/0.3.6/ScrollTrigger.js"></script>
+    <script src="js/odometer.js"></script>
 </head>
 
-<body class="nojs" onload="window.scroll(0, 0)">
+<body class="nojs" onload="window.scroll(0, 0)" data-smooth-scroll-offset="77">
     <svg class="web-svg-grads" xmlns="http://www.w3.org/2000/svg">
         <lineargradient id="web-grad-a" x1="-272.9964" x2="-290.3716" y1="385.9966" y2="403.3717" gradientunits="userSpaceOnUse">
             <stop offset="0" stop-color="#323C58" />
@@ -77,6 +79,47 @@
             </div>
         </div>
     </section>
+    <section id="web-stats" class="grid-section">
+        <div class="container-fluid max-grid">
+            <div class="row grid-section-main">
+                <div class="col col-md-10 col-lg-9">
+                    <h2 class="h5"><i class="fas fa-users mr-2"></i> Statistics</h2>
+                    <div class="row web-live-stats" data-ts="1533669005" data-format="(,ddd)">
+                        <div class="col-12 col-sm-6 col-lg-4" data-scroll style="transition-delay:200ms">
+                            <hr class="web-sep">
+                            <p class="h1 font-black"><span id="web-stat-active-users" data-count="75" data-rate="0.0036" class="web-stat odometer ltr">75 </span><small class="opacity-50 pl-1"></small></p>
+                            <p class="h6">Members</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4" data-scroll style="transition-delay:400ms">
+                            <hr class="web-sep">
+                            <p class="h1 font-black"><span id="web-stat-discord-servers" data-count="24" data-rate="0.00056" class="web-stat odometer ltr">24 </span><small class="opacity-50 pl-1"></small></p>
+                            <p class="h6">Events</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4" data-scroll style="transition-delay:600ms">
+                            <hr class="web-sep">
+                            <p class="h1 font-black"><span id="web-stat-messages-processed" data-count="350" data-rate="2.5" class="web-stat odometer ltr">50</span><small class="opacity-50 pl-1">+</small></p>
+                            <p class="h6">Medals</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4" data-scroll style="transition-delay:800ms">
+                            <hr class="web-sep">
+                            <p class="h1 font-black"><span id="web-stat-web-visitors" data-count="936" data-rate="0.0035" class="web-stat odzometer ltr">936 </span><small class="opacity-50 pl-1"></small></p>
+                            <p class="h6">School students</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4" data-scroll style="transition-delay:1000ms">
+                            <hr class="web-sep">
+                            <p class="h1 font-black"><span id="web-stat-official-server-members" data-count="77" data-rate="0.000115" class="web-stat odzometer ltr">77</span><small class="opacity-50 pl-1">%</small></p>
+                            <p class="h6">Test proficiency</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-4" data-scroll style="transition-delay:1200ms">
+                            <hr class="web-sep">
+                            <p class="h1 font-black"><small class="opacity-50 pl-1">#</small><span id="web-stat-coffee-consumed" data-count="1" data-rate="0" class="web-stat odzometer ltr">1</span></p>
+                            <p class="h6">School in Clark County</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer id="web-footer">
         <div class="container-fluid max-grid py-3">
             <div class="row">
@@ -87,7 +130,7 @@
                             <ul class="nav flex-column">
                                 <li class="nav-item active"><a class="nav-link p-0 pb-1 mb-2" href="../">Home</a></li>
                                 <li class="nav-item"><a class="nav-link p-0 pb-1 mb-2" target="_blank" href="https://www.soinc.org/">Science Olympiad</a></li>
-                                <li class="nav-item"><a href="mailto:asyjiang@gmail" class="nav-link p-0 pb-1 mb-2">Contact</a></li>
+                                <li class="nav-item"><a href="mailto:asyjiang@gmail.com" class="nav-link p-0 pb-1 mb-2">Contact</a></li>
                             </ul>
                         </div>
                     </div>
