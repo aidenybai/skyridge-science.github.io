@@ -56,7 +56,7 @@
      -webkit-transform: translate(0px, -5px);
      transform: translate(0px, -5px);
 }
- .scale {
+.scale {
      cursor: pointer;
      transition: transform 0.30s;
 }
@@ -271,24 +271,6 @@
          font-size:2.5rem 
     }
 }
- .rtl h1{
-     font-size:1.75rem 
-}
- @media only screen and (min-width: 321px){
-     .rtl h1{
-         font-size:2rem 
-    }
-}
- @media only screen and (min-width: 992px){
-     .rtl h1{
-         font-size:2.15rem 
-    }
-}
- @media only screen and (min-width: 1920px){
-     .rtl h1{
-         font-size:2.50rem 
-    }
-}
  .font-black{
      font-weight:900 
 }
@@ -299,58 +281,11 @@
      font-weight:600;
      max-width:400px 
 }
- .clean-list{
-     list-style:outside;
-     padding-left:1rem 
-}
- .clean-list li{
-     padding-top:1rem 
-}
- .fs-sm{
-     font-size:0.8rem 
-}
  html[lang="it"] .web-live-stats .h6{
      text-transform:lowercase 
 }
  html[lang="it"] .web-live-stats .h6::first-letter{
      text-transform:uppercase 
-}
- .modal-backdrop.show{
-     opacity:0.75 
-}
- .w-80{
-     max-width:80% 
-}
- .web-accordion{
-     font-size:0.85rem 
-}
- .web-accordion .card-header .btn{
-     white-space:normal 
-}
- .web-accordion .card-body h5{
-     border-bottom:1px dashed rgba(0,0,0,0.1);
-     border-top:1px solid rgba(0,0,0,0.1);
-     margin:2rem 0;
-     padding:1rem 0 !important 
-}
- .table-userdata{
-     max-width:100%;
-     overflow:hidden 
-}
- .table-userdata th,.table-userdata td{
-     display:block;
-     border-top:1px dashed rgba(0,0,0,0.2) 
-}
- @media only screen and (min-width: 992px){
-     .table-userdata th,.table-userdata td{
-         display:table-cell;
-         min-width:200px 
-    }
-}
- @media only screen and (min-width: 992px){
-     .table-userdata .text-right{
-         min-width:100px 
-    }
 }
  .btn-round{
      border-radius:50px 
