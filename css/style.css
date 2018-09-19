@@ -1014,32 +1014,32 @@
      color:#757D91;
      font-family:"GoogleSans",sans-serif;
      background-color:#293145;
-     background-image:url(img/download.png);
+     background-image:url(../img/download.png);
      background-repeat:no-repeat;
      background-size:cover;
      background-position:top center 
 }
  @media only screen and (min-width: 992px){
      #web-hero{
-         background-image:url(img/download.png) 
+         background-image:url(../img/download.png) 
     }
 }
  @media only screen and (min-width: 1920px){
      #web-hero{
-         background-image:url(img/download.png) 
+         background-image:url(../img/download.png) 
     }
 }
  .rtl #web-hero{
-     background-image:url(img/download.png) 
+     background-image:url(../img/download.png) 
 }
  @media only screen and (min-width: 992px){
      .rtl #web-hero{
-         background-image:url(img/download.png) 
+         background-image:url(../img/download.png) 
     }
 }
  @media only screen and (min-width: 1920px){
      .rtl #web-hero{
-         background-image:url(img/download.png) 
+         background-image:url(../img/download.png) 
     }
 }
  #web-hero-btns .btn{
