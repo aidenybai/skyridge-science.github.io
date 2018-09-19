@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: GoogleSans;
+    src: url("GoogleSans-Regular.ttf")
+}
+
+@font-face {
+    font-family: GoogleSans-Bold;
+    src: url("GoogleSans-Bold.ttf")
+}
+
+@font-face {
+    font-family: CODE-Bold;
+    src: url("CODE\ Bold.otf")
+}
  ::-webkit-scrollbar {
      width: 3px;
      height: 3px;
@@ -84,7 +98,7 @@
  body{
      background-color:#ededed;
      color:#506276;
-     font-family:"Roboto",sans-serif;
+     font-family:"GoogleSans",sans-serif;
     /*overflow: hidden;
     */
      height:100% 
@@ -235,7 +249,7 @@
      direction:ltr !important 
 }
  h1,h2,h3,h4,h5,h6{
-     font-family:"Roboto",sans-serif 
+     font-family:"GoogleSans",sans-serif 
 }
  h1{
      font-weight:700;
@@ -515,7 +529,7 @@
      border-radius:0 5px 5px 5px;
      margin-top:0;
      border:none;
-     box-shadow:-2px 2px 3px rgba(0,0,0,0.15) 
+     box-shadow: 0px 5px 30px -5px #000;
 }
  .dropup .dropdown-menu{
      border-radius:5px 5px 5px 0px;
@@ -564,7 +578,7 @@
     }
 }
  #main-header{
-     font-family:"Roboto",sans-serif;
+     font-family:"GoogleSans",sans-serif;
      font-weight:600;
      color:#FFF;
      position:relative;
@@ -998,7 +1012,7 @@
 }
  #web-hero{
      color:#757D91;
-     font-family:"Roboto",sans-serif;
+     font-family:"GoogleSans",sans-serif;
      background-color:#293145;
      background-image:url(https://cdn.glitch.com/f3ca83fb-6967-4a0e-8408-414df0aab459%2Fmain-bg-sd-min.png?1536903755826);
      background-repeat:no-repeat;
@@ -1034,7 +1048,7 @@
     */
      border: none;
      padding:0.5rem 1rem;
-     font-family:"Roboto",sans-serif;
+     font-family:"GoogleSans",sans-serif;
      font-weight:bold;
      background:linear-gradient(25deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 100%);
      text-shadow:1px 1px 1px rgba(0,0,0,0.12);
@@ -1121,7 +1135,7 @@
 }
  .web-dark{
      color:#adadad;
-     font-family:"Roboto",sans-serif;
+     font-family:"GoogleSans",sans-serif;
      background-color:#1e1e1e;
      background-image:url(../img/bg/dark-bg-hd-min.jpg);
      background-repeat:no-repeat;
@@ -1164,7 +1178,7 @@
 }
  .web-color{
      color:#252a34;
-     font-family:"Roboto",sans-serif;
+     font-family:"GoogleSans",sans-serif;
      background-color:#b3e0d1;
      background-image:url(https://cdn.glitch.com/f3ca83fb-6967-4a0e-8408-414df0aab459%2Fmain-bg-sd-min.jpg?1536857922944);
      background-repeat:no-repeat;
