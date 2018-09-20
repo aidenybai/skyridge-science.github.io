@@ -94,7 +94,7 @@
      padding:0;
      margin:0;
      min-height:100vh ;
-     scroll-behavior: smooth;
+     /*scroll-behavior: smooth;*/
 }
  body{
      background-color:#ededed;
