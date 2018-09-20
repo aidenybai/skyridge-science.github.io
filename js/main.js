@@ -17,6 +17,8 @@ document.onkeydown = function(e) {
   }
 };
 
+var scroll = new SmoothScroll('a[href*="#"]');
+
 function webLoad() {
   function a() {
     $(window).scrollTop() >= 50
