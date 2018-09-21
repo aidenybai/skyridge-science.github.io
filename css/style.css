@@ -1113,61 +1113,39 @@
      background-size:cover;
      background-position:top center 
 }
- .web-dark{
-     color:#adadad;
-     font-family:"GoogleSans",sans-serif;
-     background-color:#1e1e1e;
-     background-image:url(../img/bg/dark-bg-hd-min.jpg);
-     background-repeat:no-repeat;
-     background-size:cover;
-     background-position:top center 
-}
- @media only screen and (min-width: 992px){
-     .web-dark{
-         background-image:url(../img/bg/dark-bg-4k-min.jpg) 
-    }
-}
- .rtl .web-dark{
-     background-image:url(../img/bg/dark-bg-hd-min-rtl.jpg) 
-}
- @media only screen and (min-width: 992px){
-     .rtl .web-dark{
-         background-image:url(../img/bg/dark-bg-4k-min-rtl.jpg) 
-    }
-}
  .web-light{
      color:#252a34;
      background-color:#e6eaed;
-     background-image:url(../img/bg/light-bg-hd-min.jpg);
+     background-image:url(../img/light-bg-hd-min.jpg);
      background-repeat:no-repeat;
      background-size:100% auto;
      background-position:top center 
 }
  @media only screen and (min-width: 992px){
      .web-light{
-         background-image:url(../img/bg/light-bg-4k-min.jpg) 
+         background-image:url(../img/light-bg-hd-min.jpg) 
     }
 }
  .rtl .web-light{
-     background-image:url(../img/bg/light-bg-hd-min-rtl.jpg) 
+     background-image:url(../img/light-bg-hd-min.jpg) 
 }
  @media only screen and (min-width: 992px){
      .rtl .web-light{
-         background-image:url(../img/bg/light-bg-4k-min-rtl.jpg) 
+         background-image:url(../img/light-bg-hd-min.jpg) 
     }
 }
  .web-color{
      color:#252a34;
      font-family:"GoogleSans",sans-serif;
      background-color:#b3e0d1;
-     background-image:url(https://cdn.glitch.com/f3ca83fb-6967-4a0e-8408-414df0aab459%2Fmain-bg-sd-min.jpg?1536857922944);
+     background-image:url(../img/light-bg-hd-min.jpg);
      background-repeat:no-repeat;
      background-size:cover;
      background-position:top center 
 }
  @media only screen and (min-width: 992px){
      .web-color{
-         background-image:url(https://cdn.glitch.com/f3ca83fb-6967-4a0e-8408-414df0aab459%2Fmain-bg-sd-min.jpg?1536857922944) 
+         background-image:url(../img/light-bg-hd-min.jpg) 
     }
 }
  #error-hero{
