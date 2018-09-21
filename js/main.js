@@ -26,10 +26,9 @@ $(document).ready(function() {
         {
           scrollTop: $(hash).offset().top
         },
-        500,
+        800,
         function() {
           window.location.hash = hash;
-          window.location = "http://skyridge.science/";
         }
       );
     }
