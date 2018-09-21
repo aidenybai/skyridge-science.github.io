@@ -17,28 +17,36 @@ document.onkeydown = function(e) {
   }
 };
 
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+function n(a) {
+  var n = Math.round(new Date().getTime() / 1e3),
+    t = a.parents(".web-live-stats").data("ts"),
+    o = a.parents(".web-live-stats").data("format"),
+    e = a.data("count") + Math.round((n - t) * a.data("rate"));
+  return (
+    ($.od = new Odometer({
+      el: a[0],
+      value: a.data("count"),
+      format: o
+    })),
+    $.od.update(e)
+  );
+}
 
-    // Make sure this.hash has a value before overriding default behavior
+$(document).ready(function() {
+  $("a").on("click", function(event) {
     if (this.hash !== "") {
-      // Prevent default anchor click behavior
       event.preventDefault();
-
-      // Store hash
       var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
+      $("html, body").animate(
+        {
+          scrollTop: $(hash).offset().top
+        },
+        800,
+        function() {
+          window.location.hash = hash;
+        }
+      );
+    }
   });
 });
 
