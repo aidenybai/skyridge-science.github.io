@@ -1106,7 +1106,7 @@
 }
  #web-stats{
      color:#FFF;
-     background-color:#1B202D;
+     /*background-color:#1B202D;*/
      box-shadow: 0px 5px 30px -5px #000;
      /*background-image: linear-gradient(to right, #185FC9 , #4A90E2);*/
      background-repeat:no-repeat;
