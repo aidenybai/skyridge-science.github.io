@@ -17,20 +17,51 @@ document.onkeydown = function(e) {
   }
 };
 
-function n(a) {
-  var n = Math.round(new Date().getTime() / 1e3),
-    t = a.parents(".web-live-stats").data("ts"),
-    o = a.parents(".web-live-stats").data("format"),
-    e = a.data("count") + Math.round((n - t) * a.data("rate"));
-  return (
-    ($.od = new Odometer({
-      el: a[0],
-      value: a.data("count"),
-      format: o
-    })),
-    $.od.update(e)
-  );
+let counters = document.getElementsByClassName('number-ticker');
+
+let defaultDigitNode = document.createElement('div');
+defaultDigitNode.classList.add('digit');
+
+for (let i = 0; i < 10; i++) {
+    defaultDigitNode.innerHTML += i + '<br>';
 }
+
+[].forEach.call(counters, function (counter) {
+    let currentValue = parseInt(counter.getAttribute('data-value')) || 0;
+    let digits = [];
+
+    generateDigits(currentValue.toString().length);
+    setValue(currentValue);
+
+    setInterval(function () {
+        setValue(Math.floor(Math.random() * 1000000));
+    }, 2000);
+
+    function setValue (number) {
+        let s = number.toString().split('').reverse().join('');
+        let l = s.length;
+
+        if (l > digits.length) {
+            generateDigits(l - digits.length);
+        }
+
+        for (let i = 0; i < digits.length; i++) {
+            setDigit(i, s[i] || 0);
+        }
+    }
+
+    function setDigit (digitIndex, number) {
+        digits[digitIndex].style.marginTop = '-' + number + 'em';
+    }
+
+    function generateDigits (amount) {
+        for (let i = 0; i < amount; i++) {
+            let d = defaultDigitNode.cloneNode(true);
+            counter.appendChild(d);
+            digits.unshift(d);
+        }
+    }
+});
 
 $(document).ready(function() {
   $("a").on("click", function(event) {
