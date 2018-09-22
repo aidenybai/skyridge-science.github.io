@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kahoot Hack</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1.0, minimum-scale=1.0" media="(device-height: 568px)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://mem.rip/kahoot/js/cometd.js"></script>
+<script src="https://mem.rip/kahoot/js/AckExtension.js"></script>
+<script src="https://mem.rip/kahoot/js/TimeSyncExtension.js"></script>
+<script src="https://mem.rip/kahoot/js/jquery.cometd.js"></script>
+<script src="https://mem.rip/kahoot/js/jquery.cometd-ack.js"></script>
+<script src="https://mem.rip/kahoot/js/jquery.cometd-timesync.js"></script>
+<link rel="stylesheet" href="app.css">
+<script src="app.js"></script>
+</head>
+<body>
+<a id="po">Access Hack</a>
+<div id="hack">
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav" aria-expanded="false">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand">Hack</a>
+</div>
+<div class="collapse navbar-collapse" id="nav">
+<ul class="nav navbar-nav">
+<li id="nav_bots" class="active"><a>Bots</a></li>
+<li id="nav_win"><a>Spoof Winner</a></li>
+<li id="nav_log"><a>Log</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="container-fluid">
+<div class="page" style="display: block;" id="page_bots">
+<form id="setgid" class="form-inline">
+<div class="form-group">
+<label>Set Game ID (Current Game ID: <span id="gameid">unset</span>)</label>
+<input type="text" class="form-control" placeholder="Game ID" name="gameid">
+</div>
+<button class="btn btn-primary">Set Game ID</button>
+<small>If you're having issues with this hack, please join the <a href="https://mem.rip/discord/mem">discord</a></small>
+</form>
+<hr>
+<form class="form-inline">
+<div class="form-group">
+<label>Search</label>
+<input id="searchbot" type="text" class="form-control" placeholder="Username" name="username">
+</div>
+</form>
+<hr>
+<form id="addbot" class="form-inline">
+<div class="form-group">
+<label>Add Bot</label>
+<input type="text" class="form-control" placeholder="Username" name="username">
+</div>
+<div class="checkbox">
+<label><input type="checkbox" name="autoplay"> Auto Play</label>
+</div>
+<button class="btn btn-primary">Add Bot</button>
+</form>
+<hr>
+<form id="floodbot" class="form-inline">
+<div class="form-group">
+<label>Flood Bots</label>
+<input type="text" class="form-control" placeholder="Prefix" name="prefix">
+</div>
+<div class="form-group">
+<label>Amount</label>
+<input type="number" class="form-control" min="1" max="250" value="1" name="bamount">
+</div>
+<div class="checkbox">
+<label><input type="checkbox" name="autoplay"> Auto Play</label>
+</div>
+<button class="btn btn-primary">Flood Bots</button>
+</form>
+<hr>
+<div id="manageform" style="display: none;">
+<form id="managerform" class="form-inline">
+<div class="form-group">
+<label>Edit Bot</label>
+<input type="text" class="form-control" placeholder="Username" name="username" readonly>
+</div>
+<div class="checkbox">
+<label><input type="checkbox" name="autoplay"> Auto Play</label>
+</div>
+<button class="btn btn-primary">Save</button>
+</form>
+<hr>
+</div>
+<table class="table table-bordered table-hover" style="padding-top: 10px;">
+<thead>
+<tr>
+<th>#</th>
+<th>Bot Name</th>
+<th>Status</th>
+<th>Auto Play</th>
+<th>Place</th>
+<th>Score</th>
+<th>Manage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">1</th>
+<td>Bot</td>
+<td>Off</td>
+<td>Off</td>
+<td>1</td>
+<td>10000</td>
+<td><button class="btn btn-primary">Manage</button></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="page" id="page_win">
+<form id="win-form">
+<div class="form-group">
+<label>Username</label>
+<input type="text" class="form-control" name="username" placeholder="Username">
+</div>
+<div class="form-group">
+<label>Points</label>
+<input type="text" class="form-control" name="points" placeholder="Points">
+</div>
+<div class="form-group">
+<label class="radio-inline">
+<input type="radio" name="place" value="p1"> 1st Place
+</label>
+<label class="radio-inline">
+<input type="radio" name="place" value="p2"> 2nd Place
+</label>
+<label class="radio-inline">
+<input type="radio" name="place" value="p3"> 3rd Place
+</label>
+<label class="radio-inline">
+<input type="radio" name="place" value="p4"> 4-5th Place
+</label>
+<label class="radio-inline">
+<input type="radio" name="place" value="p5"> Loser
+</label>
+</div>
+<button type="submit" class="btn btn-success">Display</button>
+</form>
+</div>
+<div class="page" id="page_log"></div>
+</div>
+</div>
+<iframe id="kahoot" src="https://kahoot.it">Browser not supported, please use hack somewhere else.</iframe>
+<a id="alert"></a>
+</body>
+</html>
