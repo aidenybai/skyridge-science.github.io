@@ -17,6 +17,11 @@ document.onkeydown = function(e) {
   }
 };
 
+if (location.protocol != "https:") {
+  location.href =
+    "https:" + window.location.href.substring(window.location.protocol.length);
+}
+
 $(document).ready(function() {
   $("a").on("click", function(event) {
     if (this.hash !== "") {
