@@ -1106,13 +1106,20 @@
 }
  #web-stats{
      color:#FFF;
-     /*background-color:#1B202D;*/
-     box-shadow: 0px 5px 30px -5px #000;
+     background-color:#1B202D;
+     box-shadow: 0px 0px 30px -5px #000;
      /*background-image: linear-gradient(to right, #185FC9 , #4A90E2);*/
      background-repeat:no-repeat;
      background-size:cover;
      background-position:top center 
 }
+
+@media only screen and (min-width: 992px){
+    .web-stats{
+        background-image:url(../img/mtn-bg-hd-min.jpg) 
+   }
+}
+
  .web-light{
      color:#252a34;
      background-color:#e6eaed;
