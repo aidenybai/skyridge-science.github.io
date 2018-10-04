@@ -1117,14 +1117,14 @@
      box-shadow: 0px 0px 30px -5px #000;
     /*background-image: linear-gradient(to right, #185FC9 , #4A90E2);
     */
-     background-image:url(../img/mtn-bg-hd-min.jpg);
+     background-image:url(../img/mtn-bg-min.jpg);
      background-repeat:no-repeat;
      background-size:cover;
      background-position:top center 
 }
  @media only screen and (min-width: 992px){
      .web-stats{
-         background-image:url(../img/mtn-bg-hd-min.jpg) 
+         background-image:url(../img/mtn-bg-min.jpg) 
     }
 }
  .web-light{
