@@ -97,14 +97,14 @@
      min-height:100vh ;
      scroll-behavior: smooth;
 }
-#web-date {
- background-image:url(../img/bg/mtn-bg-min.jpg);
- background-repeat:no-repeat;
- background-size:cover;
- color:#757D91;
- font-family:"GoogleSans",sans-serif;
- background-color:#293145;
- 
+.web-color{
+     color:#252a34;
+     font-family:"GoogleSans",sans-serif;
+     background-color:#b3e0d1;
+     background-image:url(../img/mtn-bg-min.jpg);
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-position:top center 
 }
  body{
      background-color:#ededed;
