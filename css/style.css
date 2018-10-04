@@ -97,6 +97,12 @@
      min-height:100vh ;
      scroll-behavior: smooth;
 }
+#web-date {
+ background-image:url(../img/bg/mtn-bg-min.jpg);
+ background-repeat:no-repeat;
+ background-size:cover;
+ 
+}
  body{
      background-color:#ededed;
      color:#506276;
