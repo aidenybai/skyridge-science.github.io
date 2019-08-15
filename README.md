@@ -1,4 +1,6 @@
 # Skyridge Science Olympiad Website
+![](https://badgen.net/github/status/skyridge-science/skyridge-science.github.io/master/ci) ![](https://badgen.net/github/commits/skyridge-science/skyridge-science.github.io) ![](https://badgen.net/github/stars/skyridge-science/skyridge-science.github.io)
+
 We're a passionate group of students competing in Science Olympiad for Skyridge Middle School.
 
 ## Setup
@@ -14,5 +16,5 @@ cd api
 Run live server or doubleclick index.html
 
 ## Contributors
-Ayla Crowell
-Aiden Bai
+* Ayla Crowell
+* Aiden Bai
