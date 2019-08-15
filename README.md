@@ -1,7 +1,7 @@
 # Skyridge Science Olympiad Website
-Originally created by [Aiden Bai](https://bai.js.org) 2019-9-21
+We're a passionate group of students competing in Science Olympiad for Skyridge Middle School.
 
-## Contributor
+## Setup
 **1. Fork the repository** (You don't have to do this if you're part of the Scioly Org)
 
 **2. Clone your fork.**
@@ -10,5 +10,9 @@ git clone https://github.com/<your github username>/skyridge-science.github.io
 cd api
 ```
 
-**3. Install all the dependencies with yarn.**
-Run live server
+**3. Start server **
+Run live server or doubleclick index.html
+
+## Contributors
+Ayla Crowell
+Aiden Bai
