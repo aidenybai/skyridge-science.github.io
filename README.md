@@ -12,7 +12,7 @@ git clone https://github.com/<your github username>/skyridge-science.github.io
 cd api
 ```
 
-**3. Start server **
+**3. Start server.**
 Run live server or doubleclick index.html
 
 ## Contributors
