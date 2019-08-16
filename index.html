@@ -64,18 +64,29 @@
   <div id="headerMask"></div>
   <section id="web-hero" class="first-section grid-section">
     <div class="container-fluid max-grid">
-        <div class="row grid-section-main">
-      <div class="col-md-6 col-lg-6 col-xl-7"><span class="subheading">Skyridge <span class="badge badge-light"><span>2020</span></span></span>
-        <h1 class="text-white py-3">Collaborating to learn advanced science and maths.</h1>
-        <p class="section-descs w-80">We're a passionate group of students competing in Science Olympiad 2018-2019 for Skyridge Middle School.</p>
-        <div id="web-hero-btns" class="pt-3"><a class="btn btn-outline-light inline-svg-logo bg-grad-ds mb-3" href="mailto:ayla.crowell@gmail.com" role="button">
-            </svg><i class="fas fa-envelope"></i> Contact </a><span class="px-1"></span> <a class="btn btn-outline-light inline-svg-logo bg-grad-hover mb-3" href="#web-info" role="button"><svg class="svg-inline--fa fa-question-circle fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="question-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
-              <path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z"></path>
-            </svg>About</a></div>
-            
+      <div class="row grid-section-main">
+        <div class="col-md-6 col-lg-6 col-xl-7"><span class="subheading">Skyridge <span class="badge badge-light"><span>2020</span></span>
+          </span>
+          <h1 class="text-white py-3">Collaborating to learn advanced science and maths.</h1>
+          <p class="section-descs w-80">We're a passionate group of students competing in Science Olympiad 2018-2019 for Skyridge Middle School.</p>
+          <div id="web-hero-btns" class="pt-3">
+            <a class="btn btn-outline-light inline-svg-logo bg-grad-ds mb-3" href="mailto:ayla.crowell@gmail.com" role="button">
+              </svg><i class="fas fa-envelope"></i> Contact </a><span class="px-1"></span>
+            <a class="btn btn-outline-light inline-svg-logo bg-grad-hover mb-3" href="#web-info" role="button">
+              <svg class="svg-inline--fa fa-question-circle fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="question-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                <path fill="currentColor" d="M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z"></path>
+              </svg>About</a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-5 web-demo" style="text-align:right;" onclick="togglePlay()">
+          <p class="text-right pb-3">Watch Video</p>
+          <div class="demo-box shadow-lg">
+            <video class="w-100 img-fluid" id="video-web" controls loop>
+              <source src="./img/SciOly Trailer SMS.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
+            <div class="demo-mask bg-grad-ds"></div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-6 col-lg-6 col-xl-5 web-demo" style="text-align:right;" onclick="togglePlay()"><p class="text-right pb-3">Watch Video</p><div class="demo-box shadow-lg"><video class="w-100 img-fluid" id="video-web" controls loop> <source src="./img/SciOly Trailer SMS.mp4" type="video/mp4"> Your browser does not support the video tag. </video><div class="demo-mask bg-grad-ds"></div></div></div>
-    </div>
     </div>
   </section>
   <section id="web-stats" class="grid-section">
@@ -128,8 +139,9 @@
             </svg>About us</h2>
           <div class="row mt-3 pt-3 rounded">
             <div class="web-feature col-12 row scroll-show" data-scroll="once">
-              <div class="web-feature-img col col-12 col-lg-6 d-flex align-items-center justify-content-center web-ds-bg-1">
-                <div class="web-feature-img-bg web-ds-bgf-1"></div><svg class="svg-inline--fa fa-comments fa-w-18 fa-fw fa-4x" aria-hidden="true" data-prefix="fas" data-icon="comments" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+              <div class="one-img web-feature-img col col-12 col-lg-6 d-flex align-items-center justify-content-center">
+                <div class="web-feature-img-bg web-ds-bgf-1"></div>
+                <svg class="svg-inline--fa fa-comments fa-w-18 fa-fw fa-4x" aria-hidden="true" data-prefix="fas" data-icon="comments" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
                   <path fill="currentColor" d="M416 192c0-88.4-93.1-160-208-160S0 103.6 0 192c0 34.3 14.1 65.9 38 92-13.4 30.2-35.5 54.2-35.8 54.5-2.2 2.3-2.8 5.7-1.5 8.7S4.8 352 8 352c36.6 0 66.9-12.3 88.7-25 32.2 15.7 70.3 25 111.3 25 114.9 0 208-71.6 208-160zm122 220c23.9-26 38-57.7 38-92 0-66.9-53.5-124.2-129.3-148.1.9 6.6 1.3 13.3 1.3 20.1 0 105.9-107.7 192-240 192-10.8 0-21.3-.8-31.7-1.9C207.8 439.6 281.8 480 368 480c41 0 79.1-9.2 111.3-25 21.8 12.7 52.1 25 88.7 25 3.2 0 6.1-1.9 7.3-4.8 1.3-2.9.7-6.3-1.5-8.7-.3-.3-22.4-24.2-35.8-54.5z"></path>
                 </svg>
               </div>
@@ -140,8 +152,9 @@
               </div>
             </div>
             <div class="web-feature col-12 row scroll-show" data-scroll="once">
-              <div class="web-feature-img col col-12 col-lg-6 d-flex align-items-center justify-content-center web-ds-bg-2">
-                <div class="web-feature-img-bg web-ds-bgf-2"></div><svg class="svg-inline--fa fa-users fa-w-20 fa-fw fa-4x" aria-hidden="true" data-prefix="fas" data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
+              <div class="two-img web-feature-img col col-12 col-lg-6 d-flex align-items-center justify-content-center web-ds-bg-2">
+                <div class="web-feature-img-bg web-ds-bgf-2 one-img"></div>
+                <svg class="svg-inline--fa fa-users fa-w-20 fa-fw fa-4x" aria-hidden="true" data-prefix="fas" data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
                   <path fill="currentColor" d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z"></path>
                 </svg>
               </div>
@@ -152,8 +165,9 @@
               </div>
             </div>
             <div class="web-feature col-12 row scroll-show" data-scroll="once">
-              <div class="web-feature-img col col-12 col-lg-6 d-flex align-items-center justify-content-center web-ds-bg-3">
-                <div class="web-feature-img-bg web-ds-bgf-3"></div><svg class="svg-inline--fa fa-sync-alt fa-w-16 fa-fw fa-4x" aria-hidden="true" data-prefix="fas" data-icon="sync-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+              <div class="three-img web-feature-img col col-12 col-lg-6 d-flex align-items-center justify-content-center web-ds-bg-3">
+                <div class="web-feature-img-bg web-ds-bgf-3"></div>
+                <svg class="svg-inline--fa fa-sync-alt fa-w-16 fa-fw fa-4x" aria-hidden="true" data-prefix="fas" data-icon="sync-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
                   <path fill="currentColor" d="M370.72 133.28C339.458 104.008 298.888 87.962 255.848 88c-77.458.068-144.328 53.178-162.791 126.85-1.344 5.363-6.122 9.15-11.651 9.15H24.103c-7.498 0-13.194-6.807-11.807-14.176C33.933 94.924 134.813 8 256 8c66.448 0 126.791 26.136 171.315 68.685L463.03 40.97C478.149 25.851 504 36.559 504 57.941V192c0 13.255-10.745 24-24 24H345.941c-21.382 0-32.09-25.851-16.971-40.971l41.75-41.749zM32 296h134.059c21.382 0 32.09 25.851 16.971 40.971l-41.75 41.75c31.262 29.273 71.835 45.319 114.876 45.28 77.418-.07 144.315-53.144 162.787-126.849 1.344-5.363 6.122-9.15 11.651-9.15h57.304c7.498 0 13.194 6.807 11.807 14.176C478.067 417.076 377.187 504 256 504c-66.448 0-126.791-26.136-171.315-68.685L48.97 471.03C33.851 486.149 8 475.441 8 454.059V320c0-13.255 10.745-24 24-24z"></path>
                 </svg>
               </div>
@@ -164,8 +178,9 @@
               </div>
             </div>
             <div class="web-feature col-12 row scroll-show" data-scroll="once">
-              <div class="web-feature-img col col-12 col-lg-6 d-flex align-items-center justify-content-center web-ds-bg-6">
-                <div class="web-feature-img-bg web-ds-bgf-6"></div><svg class="svg-inline--fa fa-shield-alt fa-w-16 fa-fw fa-4x" aria-hidden="true" data-prefix="fas" data-icon="shield-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+              <div class="four-img web-feature-img col col-12 col-lg-6 d-flex align-items-center justify-content-center web-ds-bg-6">
+                <div class="web-feature-img-bg web-ds-bgf-6 four-img"></div>
+                <svg class="svg-inline--fa fa-shield-alt fa-w-16 fa-fw fa-4x" aria-hidden="true" data-prefix="fas" data-icon="shield-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
                   <path fill="currentColor" d="M496 128c0 221.282-135.934 344.645-221.539 380.308a48 48 0 0 1-36.923 0C130.495 463.713 16 326.487 16 128a48 48 0 0 1 29.539-44.308l192-80a48 48 0 0 1 36.923 0l192 80A48 48 0 0 1 496 128zM256 446.313l.066.034c93.735-46.689 172.497-156.308 175.817-307.729L256 65.333v380.98z"></path>
                 </svg>
               </div>
@@ -176,8 +191,9 @@
               </div>
             </div>
             <div class="web-feature col-12 row scroll-show" data-scroll="once">
-              <div class="web-feature-img col col-12 col-lg-6 d-flex align-items-center justify-content-center web-ds-bg-5">
-                <div class="web-feature-img-bg web-ds-bgf-5"></div><svg class="svg-inline--fa fa-heart fa-w-16 fa-fw fa-4x" aria-hidden="true" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+              <div class="five-img web-feature-img col col-12 col-lg-6 d-flex align-items-center justify-content-center web-ds-bg-5">
+                <div class="web-feature-img-bg web-ds-bgf-5"></div>
+                <svg class="svg-inline--fa fa-heart fa-w-16 fa-fw fa-4x" aria-hidden="true" data-prefix="fas" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
                   <path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path>
                 </svg>
               </div>
@@ -188,8 +204,9 @@
               </div>
             </div>
             <div class="web-feature col-12 row scroll-show" data-scroll="once">
-              <div class="web-feature-img col col-12 col-lg-6 d-flex align-items-center justify-content-center web-ds-bg-4">
-                <div class="web-feature-img-bg web-ds-bgf-4"></div><svg class="svg-inline--fa fa-user-clock fa-w-20 fa-fw fa-4x" aria-hidden="true" data-prefix="fas" data-icon="user-clock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
+              <div class="six-img web-feature-img col col-12 col-lg-6 d-flex align-items-center justify-content-center web-ds-bg-4">
+                <div class="web-feature-img-bg web-ds-bgf-4"></div>
+                <svg class="svg-inline--fa fa-user-clock fa-w-20 fa-fw fa-4x" aria-hidden="true" data-prefix="fas" data-icon="user-clock" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" data-fa-i2svg="">
                   <path fill="currentColor" d="M496 224c-79.6 0-144 64.4-144 144s64.4 144 144 144 144-64.4 144-144-64.4-144-144-144zm64 150.3c0 5.3-4.4 9.7-9.7 9.7h-60.6c-5.3 0-9.7-4.4-9.7-9.7v-76.6c0-5.3 4.4-9.7 9.7-9.7h12.6c5.3 0 9.7 4.4 9.7 9.7V352h38.3c5.3 0 9.7 4.4 9.7 9.7v12.6zM320 368c0-27.8 6.7-54.1 18.2-77.5-8-1.5-16.2-2.5-24.6-2.5h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h347.1c-45.3-31.9-75.1-84.5-75.1-144zm-96-112c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128z"></path>
                 </svg>
               </div>
@@ -203,7 +220,7 @@
         </div>
       </div>
       <div class="row p-3 text-center align-items-center justify-content-center fs-3">
-        <p class="col-12">Start learning and growing</p><a class="btn btn-outline-light inline-svg-logo bg-grad-ds mb-3" href="mailto:ayla.crowell@gmail.com" role="button"><span class="d-inline-block h3 p-3 m-0"><i class="fas fa-envelope"></i> <strong>Contact Us</strong></span></a>
+        <p class="col-12">Start learning and growing!</p><a class="btn btn-outline-light inline-svg-logo bg-grad-ds mb-3" href="mailto:ayla.crowell@gmail.com" role="button"><span class="d-inline-block h3 p-3 m-0"><i class="fas fa-envelope"></i> <strong>Contact Us</strong></span></a>
       </div>
     </div>
   </section>

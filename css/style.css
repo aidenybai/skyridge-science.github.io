@@ -1035,6 +1035,7 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+  height: 50px !important;
 }
 @media only screen and (min-width: 992px) {
   #web-hero {
