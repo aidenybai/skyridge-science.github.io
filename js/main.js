@@ -57,4 +57,21 @@ function webLoad() {
     });
 }
 
+var myAudio = document.getElementById("video-web");
+var isPlaying = false;
+
+function togglePlay() {
+  if (isPlaying) {
+    myAudio.pause()
+  } else {
+    myAudio.play();
+  }
+};
+myAudio.onplaying = function() {
+  isPlaying = true;
+};
+myAudio.onpause = function() {
+  isPlaying = false;
+};
+
 window.addEventListener("load", webLoad, !1);
